@@ -1,0 +1,14 @@
+.llm-highlight {
+  background: rgba(255,0,0,0.08);
+  cursor: pointer;
+}
+
+.llm-fix-panel {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #020617;
+  padding: 10px;
+  color: white;
+  z-index: 9999;
+}
