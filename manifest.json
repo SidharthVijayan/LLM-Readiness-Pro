@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LLM Readiness Pro",
+  "version": "3.0",
+  "description": "AI Extractability, Markdown Structure, Token Efficiency & Rewrite Audit Tool",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["utils.js", "overlay.js", "content.js"]
+    }
+  ]
+}
